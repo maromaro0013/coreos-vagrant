@@ -19,7 +19,7 @@ $vm_gui = false
 $vm_memory = 1024
 $vm_cpus = 1
 $vb_cpuexecutioncap = 100
-$shared_folders = {}
+$shared_folders = {"." => "/home/core/share"}
 $forwarded_ports = {}
 
 # Attempt to apply the deprecated environment variable NUM_INSTANCES to
